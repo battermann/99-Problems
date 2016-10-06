@@ -1,5 +1,5 @@
 package NinetyNineProblems
 
 object P03 {
-  def nth[A](n: Int, xs: List[A]): A = ???
+  def nth[A](n: Int, xs: List[A]): A = xs(n)
 }
